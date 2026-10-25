@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/Errieli">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=00A2FF&center=true&vCenter=true&width=520&lines=Roblox+game+developer;Building+games+and+the+tools+behind+them;AI-assisted+development;Clean+systems%2C+fast+iteration" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=00A2FF&center=true&vCenter=true&width=520&lines=I+make+Roblox+games;Mostly+Luau;Building+with+AI+agents" alt="I make Roblox games" />
 </a>
 
 <br />
@@ -15,20 +15,20 @@
 
 </div>
 
-## 🎮 About me
+## About me
 
 <div align="center">
-  <img src="assets/about-game-systems.svg" width="49%" alt="Game systems: gameplay, UI, VFX and world building in Luau" />
-  <img src="assets/about-foundations.svg" width="49%" alt="Foundations: reusable runtime code so every project starts on firm ground" />
-  <img src="assets/about-ai-workflow.svg" width="49%" alt="AI-powered workflow: AI agents plan, review and build with me, every change checked" />
-  <img src="assets/about-tooling.svg" width="49%" alt="Tooling: a desktop workbench that links AI to Studio, safely" />
+  <img src="assets/card-games.svg" width="49%" alt="Games: gameplay, UI, effects and maps, all scripted in Luau" />
+  <img src="assets/card-shared-code.svg" width="49%" alt="Shared code: the base I reuse so a new game doesn't start from zero" />
+  <img src="assets/card-ai.svg" width="49%" alt="Working with AI: AI agents help me plan and build. I still review every change." />
+  <img src="assets/card-tools.svg" width="49%" alt="My own tools: I built an app that connects AI to Roblox Studio" />
 </div>
 
-## 📦 Featured
+## Featured
 
 <div align="center">
   <a href="https://github.com/Errieli/roblox-kernel">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Errieli&repo=roblox-kernel&bg_color=0d1117&title_color=00A2FF&icon_color=7B2FF7&text_color=c9d1d9&border_color=7B2FF7&border_radius=10" alt="roblox-kernel" />
+    <img src="assets/featured-roblox-kernel.svg" width="99%" alt="roblox-kernel: runtime foundation for Roblox games: startup phases, events, tasks, cleanup and lazy utilities in one ReplicatedFirst module" />
   </a>
 </div>
 
