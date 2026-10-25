@@ -20,10 +20,10 @@
 I make Roblox games — and the tooling that keeps them solid. Always iterating: small, reviewable steps, one system at a time.
 
 <div align="center">
-  <img src="assets/game-systems.svg" width="49%" alt="Game systems: gameplay, UI, VFX and world building in Luau" />
-  <img src="assets/foundations.svg" width="49%" alt="Foundations: reusable runtime code so every project starts on firm ground" />
-  <img src="assets/ai-workflow.svg" width="49%" alt="AI-powered workflow: AI agents plan, review and build with me, every change checked" />
-  <img src="assets/tooling.svg" width="49%" alt="Tooling: a desktop workbench that links AI to Studio, safely" />
+  <img src="assets/game-systems.svg?v=2" width="49%" alt="Game systems: gameplay, UI, VFX and world building in Luau" />
+  <img src="assets/foundations.svg?v=2" width="49%" alt="Foundations: reusable runtime code so every project starts on firm ground" />
+  <img src="assets/ai-workflow.svg?v=2" width="49%" alt="AI-powered workflow: AI agents plan, review and build with me, every change checked" />
+  <img src="assets/tooling.svg?v=2" width="49%" alt="Tooling: a desktop workbench that links AI to Studio, safely" />
 </div>
 
 ## 📦 Featured
