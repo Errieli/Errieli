@@ -27,14 +27,10 @@ I make Roblox games — and the tooling that keeps them solid.
 
 ## 📦 Featured
 
-<table>
-  <tr>
-    <td width="100%">
-      <a href="https://github.com/Errieli/roblox-kernel"><b>⚡ roblox-kernel</b></a>
-      <br />
-      <sub>Runtime foundation for Roblox games: startup phases, events, tasks, cleanup and lazy utilities in one <code>ReplicatedFirst</code> module.</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/Errieli/roblox-kernel">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Errieli&repo=roblox-kernel&bg_color=0d1117&title_color=00A2FF&icon_color=7B2FF7&text_color=c9d1d9&border_color=7B2FF7&border_radius=10" alt="roblox-kernel" />
+  </a>
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,100:00A2FF&height=100&section=footer" width="100%" alt="" />
