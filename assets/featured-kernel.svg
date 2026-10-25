@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="132" viewBox="0 0 690 132">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1526"/><stop offset="1" stop-color="#140c26"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00A2FF"/><stop offset="1" stop-color="#7B2FF7"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2F7BFF" stop-opacity="0.3"/><stop offset="1" stop-color="#2F7BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="688" height="130" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="690" height="132" fill="url(#bg)"/>
+    <circle cx="56" cy="66" r="90" fill="url(#glow)"/>
+    <circle cx="668" cy="12" r="2" fill="#7B2FF7" opacity="0.6"/>
+    <circle cx="654" cy="22" r="1.5" fill="#00A2FF" opacity="0.5"/>
+    <circle cx="676" cy="30" r="1" fill="#fff" opacity="0.35"/>
+    <rect x="-160" y="0" width="110" height="132" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-160;850;850" keyTimes="0;0.35;1" dur="8s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="4" height="132" fill="url(#ac)"/>
+  </g>
+  <rect x="1" y="1" width="688" height="130" rx="16" fill="none" stroke="url(#ac)" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="26" y="36" width="60" height="60" rx="15" fill="url(#ac)" filter="url(#blur)" opacity="0.5"/>
+  <rect x="26" y="36" width="60" height="60" rx="15" fill="url(#ac)"/>
+  <rect x="27" y="37" width="58" height="28" rx="14" fill="#fff" opacity="0.1"/>
+  <g transform="translate(41 51) scale(1.25)" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2.5V6M15 2.5V6M9 18v3.5M15 18v3.5M2.5 9H6M2.5 15H6M18 9h3.5M18 15h3.5"/></g>
+  <text x="108" y="50" font-size="20" font-weight="700" fill="#e6edf3" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">roblox-kernel</text>
+  <rect x="108" y="58" width="34" height="2" rx="1" fill="url(#ac)"/>
+  <text x="108" y="80" font-size="13.5" fill="#aeb8cc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Runtime foundation for Roblox games: startup phases, events, tasks,</text>
+  <text x="108" y="99" font-size="13.5" fill="#aeb8cc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">cleanup and lazy utilities in one ReplicatedFirst module.</text>
+  <rect x="580" y="22" width="84" height="26" rx="13" fill="#2F7BFF" fill-opacity="0.12" stroke="url(#ac)" stroke-opacity="0.7"/>
+  <circle cx="598" cy="35" r="4.5" fill="#00A2FF"/>
+  <text x="610" y="40" font-size="12.5" font-weight="600" fill="#cfe3ff" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Luau</text>
+  <text x="664" y="112" font-size="12.5" font-weight="600" fill="#7cc8ff" text-anchor="end" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Open repo</text>
+</svg>

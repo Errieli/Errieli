@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="200" viewBox="0 0 690 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1526"/><stop offset="1" stop-color="#140c26"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00A2FF"/><stop offset="1" stop-color="#7B2FF7"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2F7BFF" stop-opacity="0.3"/><stop offset="1" stop-color="#2F7BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="688" height="198" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="690" height="200" fill="url(#bg)"/>
+    <circle cx="600" cy="70" r="190" fill="url(#glow)"/>
+    <circle cx="668" cy="12" r="2" fill="#7B2FF7" opacity="0.6"/>
+    <circle cx="654" cy="22" r="1.5" fill="#00A2FF" opacity="0.5"/>
+    <circle cx="676" cy="30" r="1" fill="#fff" opacity="0.35"/>
+    <rect x="-160" y="0" width="110" height="200" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-160;850;850" keyTimes="0;0.35;1" dur="8s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="4" height="200" fill="url(#ac)"/>
+  </g>
+  <rect x="1" y="1" width="688" height="198" rx="16" fill="none" stroke="url(#ac)" stroke-opacity="0.5" stroke-width="1.5"/>
+  <g transform="translate(548 50) scale(4)" fill="none" stroke="url(#ac)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"><path d="M6 7h12a4 4 0 0 1 4 4v3a4 4 0 0 1-7 2.6L14 15h-4l-1 1.6A4 4 0 0 1 2 14v-3a4 4 0 0 1 4-4z"/><path d="M7 10v4M5 12h4"/><circle cx="16" cy="10.5" r="1" fill="#fff" stroke="none"/><circle cx="18.2" cy="13.2" r="1" fill="#fff" stroke="none"/></g>
+  <text x="40" y="84" font-size="42" font-weight="800" fill="#ffffff" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Hi, I'm RL</text>
+  <rect x="42" y="98" width="44" height="3" rx="1.5" fill="url(#ac)"/>
+  <text x="40" y="126" font-size="16" fill="#aeb8cc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">I make Roblox games, mostly in Luau, with AI agents in the loop.</text>
+  <rect x="40" y="142" width="76" height="28" rx="14" fill="#2F7BFF" fill-opacity="0.12" stroke="url(#ac)" stroke-opacity="0.7"/><text x="78" y="161" font-size="13" font-weight="600" fill="#cfe3ff" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Roblox</text>
+  <rect x="124" y="142" width="62" height="28" rx="14" fill="#2F7BFF" fill-opacity="0.12" stroke="url(#ac)" stroke-opacity="0.7"/><text x="155" y="161" font-size="13" font-weight="600" fill="#cfe3ff" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Luau</text>
+  <rect x="194" y="142" width="120" height="28" rx="14" fill="#2F7BFF" fill-opacity="0.12" stroke="url(#ac)" stroke-opacity="0.7"/><text x="254" y="161" font-size="13" font-weight="600" fill="#cfe3ff" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Roblox Studio</text>
+  <rect x="322" y="142" width="94" height="28" rx="14" fill="#2F7BFF" fill-opacity="0.12" stroke="url(#ac)" stroke-opacity="0.7"/><text x="369" y="161" font-size="13" font-weight="600" fill="#cfe3ff" text-anchor="middle" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">AI agents</text>
+</svg>

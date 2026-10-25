@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="112" viewBox="0 0 340 112">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1526"/><stop offset="1" stop-color="#140c26"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00A2FF"/><stop offset="1" stop-color="#7B2FF7"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2F7BFF" stop-opacity="0.3"/><stop offset="1" stop-color="#2F7BFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="338" height="110" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="340" height="112" fill="url(#bg)"/>
+    <circle cx="46" cy="56" r="70" fill="url(#glow)"/>
+    <circle cx="318" cy="12" r="2" fill="#7B2FF7" opacity="0.6"/>
+    <circle cx="304" cy="22" r="1.5" fill="#00A2FF" opacity="0.5"/>
+    <circle cx="326" cy="30" r="1" fill="#fff" opacity="0.35"/>
+    <rect x="-160" y="0" width="110" height="112" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-160;500;500" keyTimes="0;0.35;1" dur="8s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="4" height="112" fill="url(#ac)"/>
+  </g>
+  <rect x="1" y="1" width="338" height="110" rx="14" fill="none" stroke="url(#ac)" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="22" y="32" width="48" height="48" rx="12" fill="url(#ac)" filter="url(#blur)" opacity="0.5"/>
+  <rect x="22" y="32" width="48" height="48" rx="12" fill="url(#ac)"/>
+  <rect x="23" y="33" width="46" height="22" rx="11" fill="#fff" opacity="0.1"/>
+  <g transform="translate(34 44)" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12a4 4 0 0 1 4 4v3a4 4 0 0 1-7 2.6L14 15h-4l-1 1.6A4 4 0 0 1 2 14v-3a4 4 0 0 1 4-4z"/><path d="M7 10v4M5 12h4"/><circle cx="16" cy="10.5" r="1" fill="#fff" stroke="none"/><circle cx="18.2" cy="13.2" r="1" fill="#fff" stroke="none"/></g>
+  <text x="88" y="44" font-size="17" font-weight="700" fill="#e6edf3" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Games</text>
+  <rect x="88" y="52" width="28" height="2" rx="1" fill="url(#ac)"/>
+  <text x="88" y="72" font-size="13" fill="#aeb8cc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Gameplay, UI, effects and maps,</text>
+  <text x="88" y="90" font-size="13" fill="#aeb8cc" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">all scripted in Luau</text>
+</svg>
