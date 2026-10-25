@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A2FF"/>
+      <stop offset="1" stop-color="#7B2FF7"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#0d1117" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="52" cy="60" r="28" fill="url(#g)" opacity="0.9"/>
+  <text x="52" y="69" font-size="26" text-anchor="middle" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">⚙️</text>
+  <text x="98" y="48" font-size="18" font-weight="700" fill="#00A2FF" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Foundations</text>
+  <text x="98" y="72" font-size="13.5" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">Reusable runtime code so every project</text>
+  <text x="98" y="92" font-size="13.5" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">starts on firm ground</text>
+</svg>
