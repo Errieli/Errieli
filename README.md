@@ -18,3 +18,7 @@
     <img src="assets/featured-kernel.svg" width="99%" alt="roblox-kernel: runtime foundation for Roblox games: startup phases, events, tasks, cleanup and lazy utilities in one ReplicatedFirst module" />
   </a>
 </div>
+
+<div align="center">
+  <img src="assets/featured-workbench.svg" width="99%" alt="Roblox Workbench (in development): desktop app that connects AI agents to Roblox Studio: project analysis, reviewed changes, a shared knowledge library and live previews" />
+</div>
